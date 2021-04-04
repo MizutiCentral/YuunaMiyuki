@@ -1,0 +1,130 @@
+body {
+    width: auto;
+    font-family: arial;
+    font-size: large;
+    font-family: 'Sacramento', cursive;
+    background-image: url('SystemImages/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #ff7b00;
+}
+
+h3 {
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+.headder {
+    text-align: center;
+    background-color: #ff7b00;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-family: 'Sacramento', cursive;
+}
+
+img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*selfintro*/
+.rogo{
+    width: 30%;
+    display: block;
+    margin: auto; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.page-item {
+    text-align: center;
+    width: 25%;
+    border: black;
+    color: skyblue;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+.page-link {
+    font-family: 'Sacramento', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+.kodai{
+    text-align: center;
+    color: #ff7b00;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+.syoukai {
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.hyou {
+    width: 100px;
+}
+
+.yuuna_meow {
+    width: 70%;
+}
+
+.yuuna {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.twitter-bottun {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe.twitter-timeline {
+    width: 75% !important;
+}
+
+.twitter {
+    text-align: center;
+}
+
+.tweet {
+    width: 75%;
+    text-align: center;
+}
+
+/*Notfound*/
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+.ntj {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    color: black;
+}
+
+.top {
+    text-align: center !important;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    color: black;
+    
+}
+
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+    width: 100%;
+}

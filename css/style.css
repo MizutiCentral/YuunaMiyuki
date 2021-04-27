@@ -18,6 +18,10 @@ h3 {
     text-align: center;
 }
 
+.page-item {
+    color: #ff7b00
+}
+
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 .headder {
     text-align: center;

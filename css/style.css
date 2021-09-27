@@ -1,0 +1,286 @@
+body {
+    width: 100%;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+li {
+    display: inline-block;
+}
+
+th {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+}
+
+td {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+/*hedder*/
+#hedder {
+    background-color: #16160e;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hedder {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.rogo {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+#katagaki {
+    text-align: center;
+    margin-top: 10px;
+    color: white;    
+}
+
+/*main*/
+.profile {
+    display: block;
+    text-align: center;
+}
+
+#img_main {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    border-radius: 30px;
+    width: 60%;
+}
+
+#profile {
+    width:60%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius:10px;
+    background-color: #454545;
+}
+
+#pro_dai {
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+}
+
+#pro_hyou {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.likes {
+    display: block;
+    text-align: center;
+}
+
+#likes {
+    width:60%;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: #454545;
+}
+
+#lik_dai {
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.lik_dai {
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.lik_VRChat {
+    width:80%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: #606060;
+}
+
+.lik_Apex {
+    width:80%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    background-color: #606060;
+}
+
+#img_lik {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 85%;
+}
+
+#lik_table {
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+#lik_VRChat_dai {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+#rank {
+    color: plum;
+}
+
+.avatar {
+    width:80%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #454545;
+}
+
+#ava_dai {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+#lik_GTA_dai {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+.car {
+    width:80%;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #454545;
+}
+
+#car_dai {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+/*フッター*/
+#footer {
+    margin-top: 40px;
+    background-color: #16160e;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+}
+
+/*上に戻るボタン*/
+#page_top{
+  width: 110px;
+  height: 110px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 110px;
+  height: 110px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -40px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: 'PAGE TOP';
+  font-size: 13px;
+  color: #fff;
+  position: absolute;
+  top: 58px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}

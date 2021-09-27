@@ -68,11 +68,11 @@ a:hover {
     margin-top: 20px;
     margin-bottom: -15px;
     border-radius: 30px;
-    width: 60%;
+    width: 80%;
 }
 
 #profile {
-    width:60%;
+    width:80%;
     text-align: center;
     margin-top: 50px;
     margin-left: auto;
@@ -101,7 +101,7 @@ a:hover {
 }
 
 #likes {
-    width:60%;
+    width:80%;
     text-align: center;
     margin-top: 50px;
     margin-left: auto;
